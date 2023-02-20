@@ -1,0 +1,194 @@
+body{
+font-family: 'Roboto', sans-serif;
+color: #2E2F42;}
+
+/* Header */
+.header {}
+ul {list-style: none;}
+.header-navigation {}
+.header-logo {}
+.header-list {}
+.header-item {}
+.header-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-link:active, .header-mail:active, .header-link:hover, 
+.header-link:focus, .header-mail:hover, .header-mail:focus, .header-tel:hover, .header-tel:focus
+{color: #404BBF;}
+
+.header-tel {font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-mail {font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Hero */
+.hero {background-color: #2E2F42;
+}
+.hero-title {font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.hero-btn {font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.hero-btn:hover{background-color: #404BBF;}
+
+/* Information */
+.info {
+}
+.info-title {
+}
+.info-list {
+}
+.info-item {
+}
+.info-subtitle {font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.info-description {font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}
+
+/* What are we doing */
+.about {
+}
+.about-title {font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42; 
+}
+.about-list {
+}
+.about-item {
+}
+
+/* Our team */
+.team {
+}
+.team-title {font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.team-list {
+}
+.team-item {
+}
+.team-subtitle {font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.team-description {font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Footer */
+.footer {background-color: #2E2F42;;
+}
+.footer-logo {
+}
+.footer-description {font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+
+/* Portfolio block */
+
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-buttons {
+}
+.portfolio-item-btn{}
+.portfolio-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;;
+    background-color: #F4F4FD;
+}
+.portfolio-btn:hover, .portfolio-btn:focus {color:#FFFFFF;
+    background-color: #404BBF;}
+
+.portfolio-list {
+}
+.portfolio-item {box-sizing: border-box;
+    background: #FFFFFF;
+}
+.portfolio-subtitle {font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.portfolio-description {font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
